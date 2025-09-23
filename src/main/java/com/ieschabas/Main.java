@@ -27,5 +27,18 @@ public class Main {
         //Uso de la clase CuentaBancaria
         CuentaBancaria cuentaBancaria1 = new CuentaBancaria("Pedro Enrique", 100, 20);
         cuentaBancaria1.mostrarInformacion();
+
+        //Cálculo de la raíz cuadrada
+
+        PotenciaYRaiz raizCuadrada = new PotenciaYRaiz(3);
+        double resultadoRaizCuadrada = raizCuadrada.calcularRaizCuadrada();
+        System.out.println("La raíz cuadrada de " + numero + " es: " + resultadoRaizCuadrada);
+
+        //Cálculo de la potencia
+
+        PotenciaYRaiz potencia = new PotenciaYRaiz(5);
+        double resultadoPotencia = potencia.calcularPotencia(2);
+
+        System.out.println("La potencia del 5 es: " + resultadoPotencia);
     }
 }
