@@ -28,16 +28,19 @@ public class Main {
         CuentaBancaria cuentaBancaria1 = new CuentaBancaria("Pedro Enrique", 100, 20);
         cuentaBancaria1.mostrarInformacion();
 
+        //Uso de la clase Coche;
+
+
         //Cálculo de la raíz cuadrada
 
         PotenciaYRaiz raizCuadrada = new PotenciaYRaiz(3);
         double resultadoRaizCuadrada = raizCuadrada.calcularRaizCuadrada();
-        System.out.println("La raíz cuadrada de " + numero + " es: " + resultadoRaizCuadrada);
+        System.out.println("La raíz cuadrada de 5 es: " + resultadoRaizCuadrada);
 
         //Cálculo de la potencia
 
         PotenciaYRaiz potencia = new PotenciaYRaiz(5);
-        double resultadoPotencia = potencia.calcularPotencia(2);
+        double resultadoPotencia = potencia.calcularPotencia();
 
         System.out.println("La potencia del 5 es: " + resultadoPotencia);
     }
