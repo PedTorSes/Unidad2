@@ -43,5 +43,11 @@ public class Main {
         double resultadoPotencia = potencia.calcularPotencia();
 
         System.out.println("La potencia del 5 es: " + resultadoPotencia);
+
+        /**
+         * Código para la clase Libro
+         */
+        Libro libro1 = new Libro("Programación para dummies", "Pedro Torres", 1 );
+        libro1.mostrarInformacion();
     }
 }
