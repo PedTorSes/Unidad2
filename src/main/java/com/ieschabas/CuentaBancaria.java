@@ -15,6 +15,13 @@ public class CuentaBancaria {
     private String titular;
     private double saldo = 0.0;
 
+    /**
+     * Aquí asignamos los parámetros que queremos para la clase
+     * @param titular
+     * @param ingresar
+     * @param retirar
+     */
+
     public CuentaBancaria(String titular, double ingresar, double retirar){
         this.titular = titular;
         this.saldo = 0.0;

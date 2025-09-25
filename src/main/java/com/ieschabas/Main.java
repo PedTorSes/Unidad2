@@ -1,4 +1,8 @@
 package com.ieschabas;
+/**
+ * Clase Main agrupando los resultados de todas las demás clases para verlos en pantalla
+ * @author Pedro Enrique Torres
+ */
 
 import javax.xml.transform.Source;
 import java.sql.SQLOutput;
@@ -26,14 +30,13 @@ public class Main {
 
         /** Código para la clase CuentaBancaria
          */
-
         //Uso de la clase CuentaBancaria
         CuentaBancaria cuentaBancaria1 = new CuentaBancaria("Pedro Enrique", 100, 20);
         cuentaBancaria1.mostrarInformacion();
+
         /**
          * Código para la clase coche, con su velocidad incial, si velocidad tras acelerar y frenar
          */
-
         //Uso de la clase Coche
         //Velocidad incial
         Coche coche1 = new Coche(100);
@@ -77,6 +80,13 @@ public class Main {
         // Resultados
         Alumno alumno1 = new Alumno("Pedro Torres", 5);
         alumno1.mostrarInformacion();
+
+        /**
+         * Código para mostrar la clase Círculo donde calculamos el área de un círculo
+         */
+
+        Circulo circulo1 = new Circulo(10);
+        circulo1.mostrarInformacion();
 
 
 

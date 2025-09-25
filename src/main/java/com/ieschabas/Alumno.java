@@ -15,20 +15,34 @@ public class Alumno {
     public Alumno() {}
 
     //Constructor sobrecargado
-
+    /**
+     * Establecemos son los atributos de la clase
+     * @param nombre
+     * @param nota
+     */
     public Alumno (String nombre, double nota) {
         this.nombre = nombre;
         this.nota = nota;
     }
 
     //Getters
+
+    /**
+     * Método que establece el nombre del alumno
+     * @return nombre alumno
+     */
     public String getNombre(){
         return nombre;
     }
 
+    /**
+     * Método que establece la nota del alumno
+     * @return nota
+     */
     public double getNota() {
         return nota;
     }
+//Mostrar en pantalla
 
     public boolean aprobado(){ return (nota >= 5);
          }
