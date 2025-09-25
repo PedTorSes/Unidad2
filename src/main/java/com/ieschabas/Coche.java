@@ -3,7 +3,8 @@ package com.ieschabas;
 public class Coche {
     private double velocidad;
 
-    public Coche() {
+    public Coche(double velocidad) {
+        this.velocidad = velocidad;
 
     }
 
