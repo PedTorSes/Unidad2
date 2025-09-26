@@ -7,16 +7,16 @@ package com.ieschabas;
  */
 
 
-public class PotenciaYRaiz {
+public class Math {
 
     // Atributo
     private int numero;
 
     //Constructores
-    public PotenciaYRaiz() {
+    public Math() {
     }
     //Constructor sobrecargado
-    public PotenciaYRaiz(int numero) {
+    public Math(int numero) {
         this.numero = numero;
     }
     //Setter
@@ -44,7 +44,7 @@ public class PotenciaYRaiz {
      * @return  resultado raíz cuadrada
      */
     public double calcularRaizCuadrada() {
-        return Math.sqrt(this.numero);
+        return java.lang.Math.sqrt(this.numero);
     }
     //Exponente
 
@@ -53,7 +53,7 @@ public class PotenciaYRaiz {
      * @return resultado potencia
      */
     public double calcularPotencia(){
-        return Math.pow(this.numero, 2);
+        return java.lang.Math.pow(this.numero, 2);
     }
 
 }

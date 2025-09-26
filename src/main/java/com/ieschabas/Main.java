@@ -4,9 +4,6 @@ package com.ieschabas;
  * @author Pedro Enrique Torres
  */
 
-import javax.xml.transform.Source;
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args){
         /**
@@ -56,13 +53,13 @@ public class Main {
 
         //Cálculo de la raíz cuadrada
 
-        PotenciaYRaiz raizCuadrada = new PotenciaYRaiz(3);
+        Math raizCuadrada = new Math(3);
         double resultadoRaizCuadrada = raizCuadrada.calcularRaizCuadrada();
         System.out.println("La raíz cuadrada de 5 es: " + resultadoRaizCuadrada);
 
         //Cálculo de la potencia
 
-        PotenciaYRaiz potencia = new PotenciaYRaiz(5);
+        Math potencia = new Math(5);
         double resultadoPotencia = potencia.calcularPotencia();
 
         System.out.println("La potencia del 5 es: " + resultadoPotencia);
@@ -87,6 +84,12 @@ public class Main {
 
         Circulo circulo1 = new Circulo(10);
         circulo1.mostrarInformacion();
+
+        /**
+         * Código para mostrar las operaciones que queremos realizar con la calculadora y su resultado
+         */
+        Calculadora calculadora1 = new Calculadora(10, 8);
+        calculadora1.mostrarInformacion();
 
 
 
