@@ -1,5 +1,11 @@
 package com.ieschabas;
 
+/**
+ * Clase en la cual asignamos unos atributos al libro
+ * @author Pedro Enrique Torres Sesé
+ * @version 1.0
+ */
+
 public class Libro {
     /**
      *Establecemos las variables privadas de esta clase
